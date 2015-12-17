@@ -1,5 +1,8 @@
 (ns assignment2)
 
+(defn <> 
+	[left right]
+	(not= left right))
 
 (defn eval_operator
 	"Change the infix to prefix form ( [:column op value] -> [op :column value] ).
